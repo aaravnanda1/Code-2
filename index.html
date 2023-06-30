@@ -1,0 +1,52 @@
+<html>
+        <body><html>
+    <head>
+   
+        <title>
+            Credit Card Validation
+            </title>
+            </head>
+            <body onload="number()">
+                     
+        <form onsubmit="validate()">
+            <h1> VISA Card Validation Form </h1>
+            <h2> Input Credit Card No. </h2>
+
+            <h3> [Starting with 4 length 13 to 16 digits (Visa)
+            <h3> and Submit <h3>
+                <input type="text"id="name"> <br><br>
+                <input type="number"> <br><br>
+                <input type="number"> <br><br>
+                <input type="date"> <br><br>
+                <input type="submit">
+                </form>
+                </body>
+                </html></body>
+        <style>form{
+    background-color: skyblue;
+    text-align: center;
+}
+h1{
+    background-color: aqua;
+text-align: center;
+}
+body{
+    background-color: peachpuff;
+}</style>
+        <script>function validate(){
+
+    var u=document.getElementById("name").value
+
+    if(u==""){
+        alert("Please enter a username")
+    }
+    else{
+        alert("Welcome user")
+    }
+
+}
+function number(){
+    alert("Please fill out the form")
+}
+</script>
+      </html>
